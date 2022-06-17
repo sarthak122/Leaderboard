@@ -35,7 +35,7 @@ function create(e) {
       "<br>" +
       date.toLocaleString("default", { month: "short" }) +
       " " +
-      date.getDay() +
+      date.getDate() +
       ", " +
       date.getFullYear() +
       " " +
