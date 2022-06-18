@@ -21,6 +21,8 @@ body {
     #46eefa,
     #5ffbf1
   );
+  background-size: 1500px 4500px;
+  background-repeat: no-repeat;
 }
 h1,
 form {
@@ -117,4 +119,34 @@ form button {
 input,
 button {
   border-color: rosybrown;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  form {
+    display: inline-block;
+    justify-content: center;
+    
+  }
+  .todo-container
+  {
+    margin-top: 20px;
+    
+  }
+  .todo {
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    
+  }
+  .todo .todo-item1 .todo-item2 .todo-item3 .todo-item4 {
+    font-size: 10px;
+  }
 }
